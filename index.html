@@ -1,108 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipo 4</title>
-    
-    <!-- Font Awesome para iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-PxPo9S1FnD5C1KRGb2OERzRf1qTY9BgXqH2bOZ6wY2b6KfyB9nHYh+zwniGwRyE2TZrqW+H8JXK2JG6CzV6VQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #d0e8f2; /* azul pastel */
-            color: #333;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentación de Johana</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffe6f0; /* Rosa pastel */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
-        header {
-            background-color: #d0e8f2;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
-            border-bottom: 2px solid #a0c4de;
-        }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      max-width: 400px;
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
 
-        .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: #004c99; /* azul fuerte */
-        }
+    .card:hover {
+      transform: scale(1.05);
+    }
 
-        .menu {
-            display: flex;
-            gap: 20px;
-        }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #ffb6c1; /* Borde rosa */
+    }
 
-        .menu a {
-            text-decoration: none;
-            color: #004c99;
-            font-weight: bold;
-            font-size: 1em;
-        }
+    h1 {
+      font-size: 24px;
+      color: #cc2b52;
+      margin: 10px 0;
+    }
 
-        .menu a i {
-            margin-right: 5px;
-        }
+    p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.5;
+    }
 
-        .logo-img {
-            width: 50px;
-            height: 50px;
-        }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      background: #ffb6c1;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
 
-        main {
-            padding: 40px 30px;
-            text-align: center;
-        }
-
-        main h1 {
-            color: #004c99;
-        }
-
-        main p {
-            font-size: 1.2em;
-            margin: 20px 0;
-        }
-
-        footer {
-            background-color: #a0c4de;
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9em;
-            color: #003366;
-            margin-top: 50px;
-        }
-    </style>
+    .btn:hover {
+      background: #e89ca9;
+    }
+  </style>
 </head>
 <body>
-
-    <header>
-        <div class="logo">Equipo 4</div>
-        <nav class="menu">
-            <a href="index.html"><i class="fas fa-home"></i>Inicio</a>
-            <a href="Sheila.html"><i class="fas fa-user-graduate"></i>Sheila</a>
-            <a href="Johana.html"><i class="fas fa-user-graduate"></i>Johana</a>
-            <a href="Jocsan.html"><i class="fas fa-user-graduate"></i>Jocsan</a>
-        </nav>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Logo" class="logo-img">
-        </div>
-    </header>
-
-    <main>
-        <h1>¡Bienvenidos!</h1>
-        <p>Nosotros somos el <strong>Equipo 4</strong> conformado por Sheila, Johana y Jocsan, estudiantes de Entornos Virtuales en la <strong>UTXJ</strong>.</p>
-        <p>El siguiente proyecto de programación es una evaluación práctica para la clase.</p>
-    </main>
-
-    <footer>
-        &copy; 2025 Equipo 4 | UTXJ | Entornos Virtuales
-    </footer>
-
+  <div class="card">
+    <img src="https://i.imgur.com/8Km9tLL.png" alt="Foto de Johana" class="profile-img">
+    <h1>Hola, soy Johana 💕</h1>
+    <p>
+      Soy una chica alegre, creativa y apasionada por el aprendizaje. 
+      Me gusta compartir ideas, ayudar a los demás y siempre buscar 
+      nuevas formas de crecer. 🌸✨
+    </p>
+    <a href="#" class="btn">Conóceme más</a>
+  </div>
 </body>
 </html>
-
-
-//Hola soy un comentario
